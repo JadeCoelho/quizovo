@@ -1,0 +1,207 @@
+{
+  "quizzes": [
+    {
+      "id": 1,
+      "name": "Conhecimentos gerais",
+      "numQuestions": 10,
+      "questions": [
+        {
+          "questao": "De quem é a famosa frase “Penso, logo existo”?",
+          "res1": "Descartes",
+          "res2": "Galileu Galilei",
+          "res3": "Platão",
+          "res4": "Sócrates"
+        },
+        {
+          "questao": "Quais o menor e o maior país do mundo?",
+          "res1": "Vaticano e Rússia",
+          "res2": "Nauru e China",
+          "res3": "Mônaco e Canadá",
+          "res4": "Malta e Estados Unidos"
+        },
+        {
+          "questao": "Qual o nome do presidente do Brasil que ficou conhecido como Jango?",
+          "res1": "João Goulart",
+          "res2": "Jânio Quadros",
+          "res3": "Getúlio Vargas",
+          "res4": "Jacinto Anjos"
+        },
+        {
+          "questao": "Quais as duas datas que são comemoradas em novembro?",
+          "res1": " Proclamação da República e Dia Nacional da Consciência Negra",
+          "res2": " Independência do Brasil e Dia da Bandeira",
+          "res3": "Dia de Finados e Dia Nacional do Livro",
+          "res4": " Black Friday e Dia da Árvore"
+        },
+        {
+          "questao": " Em que ordem surgiram os modelos atômicos?",
+          "res1": "Dalton, Thomson, Rutherford, Rutherford-Bohr",
+          "res2": "Dalton, Thomson, Rutherford-Bohr, Rutherford",
+          "res3": "Thomson, Dalton, Rutherford, Rutherford-Bohr",
+          "res4": "Rutherford-Bohr, Rutherford, Thomson, Dalton"
+        },
+        {
+          "questao": "Qual a montanha mais alta do Brasil?",
+          "res1": "Pico da Neblina",
+          "res2": "Pico da Bandeira",
+          "res3": " Pico Maior de Friburgo",
+          "res4": "Monte Roraima"
+        },
+        {
+          "questao": "Que país tem o formato de uma bota?",
+          "res1": "Itália",
+          "res2": "Butão",
+          "res3": "Portugal",
+          "res4": "México"
+        },
+        {
+          "questao": "Quantos ossos temos no nosso corpo?",
+          "res1": "206",
+          "res2": "126",
+          "res3": "200",
+          "res4": ""
+        },
+        {
+          "questao": "O que é maior: gigabyte ou megabyte?",
+          "res1": "gigabyte ",
+          "res2": "megabyte",
+          "res3": null,
+          "res4": null
+        },
+        {
+          "questao": "Quem escreveu Os Lusíadas?",
+          "res1": "Luís Vaz de Camões",
+          "res2": " Carlos Drummond de Andrade",
+          "res3": "Fernando Pessoa",
+          "res4": "Almeida Garrett"
+        }
+      ]
+    },
+    {
+      "name": "nome do quiz",
+      "numQuestions": 5,
+      "questions": [
+        {
+          "question": "ax",
+          "res1": "cads",
+          "res2": "sac",
+          "res3": null,
+          "res4": null
+        },
+        {
+          "question": "efw",
+          "res1": "ewf",
+          "res2": "yj",
+          "res3": "th",
+          "res4": null
+        },
+        {
+          "question": "htr",
+          "res1": "v",
+          "res2": "f",
+          "res3": null,
+          "res4": null
+        },
+        {
+          "question": "3r5yth",
+          "res1": "efw",
+          "res2": "fe",
+          "res3": null,
+          "res4": "efw"
+        },
+        {
+          "question": "ddd",
+          "res1": "ddd",
+          "res2": "ss",
+          "res3": null,
+          "res4": null
+        }
+      ],
+      "id": 2
+    },
+    {
+      "name": "quiz 2",
+      "numQuestions": 5,
+      "questions": [
+        {
+          "question": "scd",
+          "res1": "dc",
+          "res2": "nuj",
+          "res3": null,
+          "res4": null
+        },
+        {
+          "question": "uj",
+          "res1": "ju",
+          "res2": "uj",
+          "res3": null,
+          "res4": null
+        },
+        {
+          "question": "h",
+          "res1": "h",
+          "res2": "h",
+          "res3": null,
+          "res4": null
+        },
+        {
+          "question": "j",
+          "res1": "j",
+          "res2": "j",
+          "res3": null,
+          "res4": null
+        },
+        {
+          "question": "l",
+          "res1": "l",
+          "res2": "l",
+          "res3": null,
+          "res4": null
+        }
+      ],
+      "id": 3
+    },
+    {
+      "name": "a",
+      "numQuestions": 5,
+      "questions": [
+        {
+          "question": "axsa",
+          "res1": "a",
+          "res2": "a",
+          "res3": null,
+          "res4": null
+        },
+        {
+          "question": "axs",
+          "res1": "aa",
+          "res2": "aa",
+          "res3": null,
+          "res4": null
+        },
+        {
+          "question": "b",
+          "res1": "b",
+          "res2": "b",
+          "res3": null,
+          "res4": null
+        },
+        {
+          "question": "c",
+          "res1": "c",
+          "res2": "c",
+          "res3": null,
+          "res4": null
+        },
+        {
+          "question": "d",
+          "res1": "d",
+          "res2": "d",
+          "res3": null,
+          "res4": null
+        }
+      ],
+      "id": 4
+    }
+  ]
+}
