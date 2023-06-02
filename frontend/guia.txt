@@ -1,7 +1,0 @@
-
-  readQuiz(): Observable<Quiz[]> {
-    return this.http.get<Quiz[]>(this.baseURL).pipe(
-      map((obj) => obj),
-      catchError((e) => this.error(e))
-    );
-  }

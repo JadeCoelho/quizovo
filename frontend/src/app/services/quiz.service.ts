@@ -1,14 +1,15 @@
+import { AlertService } from 'src/app/services/alert.service';
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable, catchError, map } from 'rxjs';
-import { Quiz } from './quiz';
+import { Observable, catchError, map, EMPTY } from 'rxjs';
+import { Quiz } from '../quiz/quiz';
 
 @Injectable({
   providedIn: 'root',
 })
 export class QuizService {
   url: string = 'http://localhost:8080/quizzes';
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient, private alertService: AlertService) {}
 
   readQuizzes(): Observable<Quiz[]> {
     return this.http.get<Quiz[]>(this.url).pipe(
@@ -44,6 +45,7 @@ export class QuizService {
   }
 
   error(e?: any): Observable<any> {
-    return e;
+    this.alertService.showAlert(`ERRO ${e.name}: ${e.message}`,'danger')
+    return EMPTY;
   }
 }

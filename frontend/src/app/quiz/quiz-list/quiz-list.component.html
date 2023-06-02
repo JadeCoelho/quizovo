@@ -1,5 +1,11 @@
 <div class="container">
   <div class="container-table" *ngIf="quizzes; else spinner">
+    <input
+      type="text"
+      class="form-control"
+      placeholder="Pesquisar quiz por nome"
+      (input)="search($event)"
+    />
     <table class="table">
       <thead>
         <tr>
@@ -15,14 +21,17 @@
               <button
                 type="button"
                 class="btn btn-dark bi bi-play-fill"
+                (click)="startQuiz(quiz.id)"
               ></button>
               <button
                 type="button"
                 class="btn btn-secondary bi bi-pencil-fill"
+                (click)="onEdit(quiz.id)"
               ></button>
               <button
                 type="button"
                 class="btn btn-danger bi bi-trash-fill"
+                (click)="onDelete(quiz.id)"
               ></button>
             </div>
           </td>
@@ -33,6 +42,15 @@
   <ng-template #spinner>
     <div class="spinner-border text-secondary" role="status"></div>
   </ng-template>
-  <div ng-show="!quizzes.length" style="display: none">Você ainda não criou nenhum quiz.</div>
+  <div ng-show="!quizzes.length" style="display: none">
+    Você ainda não criou nenhum quiz.
+  </div>
 </div>
-<button type="button" *ngIf="quizzes" class="btn btn-dark" (click)="openQuizForm()">Criar quiz</button>
+<button
+  type="button"
+  *ngIf="quizzes"
+  class="btn btn-dark"
+  (click)="openQuizForm()"
+>
+  Criar quiz
+</button>
