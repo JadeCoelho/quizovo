@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { Quiz } from '../quiz';
-import { QuizService } from '../../services/quiz.service';
-import { AlertService } from 'src/app/services/alert.service';
 import { ActivatedRoute, Router } from '@angular/router';
+import { AlertService } from 'src/app/services/alert.service';
+
+import { QuizService } from '../../services/quiz.service';
+import { Quiz } from '../quiz';
 
 @Component({
   selector: 'app-quiz-form',
@@ -106,7 +107,7 @@ export class QuizFormComponent implements OnInit {
       name: this.quizName,
       numQuestions: this.questions.length,
       questions: this.questions,
-      id: Number(this.id),
+      id: Number(this.id)
     };
 
     if (this.id) {
@@ -120,7 +121,6 @@ export class QuizFormComponent implements OnInit {
         error: () =>
           this.alertService.showAlert('Erro ao editar quiz', 'danger', 3000),
         complete: () => {
-          console.log('editou quiz');
           this.router.navigate(['list']);
         },
       });
@@ -135,11 +135,9 @@ export class QuizFormComponent implements OnInit {
         error: () =>
           this.alertService.showAlert('Erro ao criar quiz', 'danger', 3000),
         complete: () => {
-          console.log('criou quiz');
           this.router.navigate(['list']);
         },
       });
     }
-    console.log(this.quiz);
   }
 }

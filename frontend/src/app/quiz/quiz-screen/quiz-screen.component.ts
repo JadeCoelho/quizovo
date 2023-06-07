@@ -1,7 +1,8 @@
-import { QuizService } from './../../services/quiz.service';
 import { Component, OnInit } from '@angular/core';
-import { Quiz } from '../quiz';
 import { ActivatedRoute, Router } from '@angular/router';
+
+import { Quiz } from '../quiz';
+import { QuizService } from './../../services/quiz.service';
 
 @Component({
   selector: 'app-quiz-screen',
@@ -28,10 +29,11 @@ export class QuizScreenComponent implements OnInit {
       this.numQuestions = quiz.numQuestions;
     });
     this.randomFunc();
+    console.log(this.randomArr);
   }
 
   randomFunc() {
-    this.randomArr = this.randomArr.sort(() => Math.random() - 0.5);
+    this.randomArr.sort(() => Math.random() - 0.5);
   }
   finishQuiz() {
     this.finished = true;

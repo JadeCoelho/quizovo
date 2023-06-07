@@ -9,10 +9,10 @@ import { AppComponent } from './app.component';
 import { AlertComponent } from './components/alert/alert.component';
 import { BtnHomeComponent } from './components/btn-home/btn-home.component';
 import { HomeComponent } from './home/home.component';
+import { QuizDeleteComponent } from './quiz/quiz-delete/quiz-delete.component';
 import { QuizFormComponent } from './quiz/quiz-form/quiz-form.component';
 import { QuizInfoComponent } from './quiz/quiz-info/quiz-info.component';
 import { QuizListComponent } from './quiz/quiz-list/quiz-list.component';
-import { QuizDeleteComponent } from './quiz/quiz-delete/quiz-delete.component';
 import { QuizScreenComponent } from './quiz/quiz-screen/quiz-screen.component';
 
 @NgModule({

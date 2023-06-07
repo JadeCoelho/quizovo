@@ -1,7 +1,8 @@
-import { Quiz } from './../quiz';
 import { Component, OnInit } from '@angular/core';
-import { QuizService } from '../../services/quiz.service';
 import { Router } from '@angular/router';
+
+import { QuizService } from '../../services/quiz.service';
+import { Quiz } from './../quiz';
 
 @Component({
   selector: 'app-quiz-list',
@@ -16,7 +17,6 @@ export class QuizListComponent implements OnInit {
     this.quizService.readQuizzes().subscribe((quizzes) => {
       this.quizzes = quizzes;
       this.filter = quizzes;
-      console.log(quizzes);
     });
   }
   openQuizForm() {

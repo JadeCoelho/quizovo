@@ -118,48 +118,6 @@
         }
       ],
       "id": 2
-    },
-    {
-      "name": "quiz 3",
-      "numQuestions": 5,
-      "questions": [
-        {
-          "question": "scd",
-          "res1": "dc",
-          "res2": "nuj",
-          "res3": "v",
-          "res4": null
-        },
-        {
-          "question": "uj",
-          "res1": "ju",
-          "res2": "uj",
-          "res3": "5",
-          "res4": null
-        },
-        {
-          "question": "h",
-          "res1": "h",
-          "res2": "h",
-          "res3": null,
-          "res4": null
-        },
-        {
-          "question": "j",
-          "res1": "j",
-          "res2": "j",
-          "res3": null,
-          "res4": null
-        },
-        {
-          "question": "l",
-          "res1": "l",
-          "res2": "l",
-          "res3": null,
-          "res4": null
-        }
-      ],
-      "id": 3
     }
   ]
 }

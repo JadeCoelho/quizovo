@@ -1,7 +1,8 @@
-import { AlertService } from 'src/app/services/alert.service';
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable, catchError, map, EMPTY } from 'rxjs';
+import { catchError, EMPTY, map, Observable } from 'rxjs';
+import { AlertService } from 'src/app/services/alert.service';
+
 import { Quiz } from '../quiz/quiz';
 
 @Injectable({

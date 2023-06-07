@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { QuizService } from 'src/app/services/quiz.service';
-import { Quiz } from '../quiz';
 import { AlertService } from 'src/app/services/alert.service';
+import { QuizService } from 'src/app/services/quiz.service';
+
+import { Quiz } from '../quiz';
 
 @Component({
   selector: 'app-quiz-delete',
@@ -42,7 +43,7 @@ export class QuizDeleteComponent {
           3000
         ),
       complete: () =>{
-        this.router.navigate(['list'])
+        this.cancel()
       }
     });
   }
